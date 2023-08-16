@@ -92,7 +92,6 @@ body.open-menu {
   display: none;
   align-items: center;
   background-color: var(--main-text-color);
-  border-radius: 1rem;
   width: fit-content;
   margin: 0 auto;
   padding: 1rem;
@@ -112,7 +111,7 @@ body.open-menu {
   color: var(--sub-text-color);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .cart__btn {
     display: flex;
     margin-left: 2rem;
